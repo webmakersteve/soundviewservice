@@ -1,6 +1,14 @@
 /** bootstrap **/
 
-@import '/bootstrap/bootstrap';
+@import 'bootstrap/bootstrap.scss';
+
+@mixin box-shadow($var) {
+  box-shadow: $var;
+  -webkit-box-shadow: $var;
+  -ms-box-shadow: $var;
+  -o-box-shadow: $var;
+  -ms-box-shadow: $var;
+}
 
 /** author styles **/
 
@@ -50,7 +58,8 @@ $blackgray: #222;
     background:white;
     height:80px;
     padding: 10px 25px;
-    .box-shadow(0 1px 3px rgba(0,0,0,.4));
+
+    @include box-shadow(0 1px 3px rgba(0,0,0,.4));
 
     .navbar-brand {
       line-height:60px;
