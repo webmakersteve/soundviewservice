@@ -5481,3 +5481,11 @@ footer .footer {
   height: 260px;
   background-size: cover;
   background-position: center center; }
+
+footer .pre-footer .panel .panel-body ul.dsq-widget-list {
+  padding: 0;
+  margin: 0; }
+  footer .pre-footer .panel .panel-body ul.dsq-widget-list li {
+    margin-top: 0; }
+    footer .pre-footer .panel .panel-body ul.dsq-widget-list li .dsq-widget-meta {
+      display: none; }
