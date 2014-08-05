@@ -250,8 +250,8 @@ th {
     border: 1px solid #ddd !important; } }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("bootstrap/glyphicons-halflings-regular.eot");
-  src: url("bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 .glyphicon {
   position: relative;
   top: 1px;
@@ -5290,6 +5290,24 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /** author styles **/
+.form-control {
+  border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px; }
+
+textarea.form-control {
+  min-height: 100px; }
+
+.jumbotron {
+  background-repeat: no-repat;
+  background-position: center center;
+  background-size: cover; }
+
+main {
+  padding-bottom: 56px; }
+
 .nav-pad {
   padding-top: 135px; }
 
@@ -5453,3 +5471,13 @@ footer .footer {
   line-height: 20px;
   font-size: 12px;
   color: #e5e5e5; }
+
+.peek figure {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset;
+  -ms-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset;
+  -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset;
+  -ms-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset;
+  height: 260px;
+  background-size: cover;
+  background-position: center center; }

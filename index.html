@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="jumbotron nav-pad">
+<div class="jumbotron nav-pad" style="">
 
     <div class="container">
         <div class="row">
@@ -30,7 +30,7 @@ layout: default
                     </div>
                     <div class="panel panel-default working-hours">
                         <div class="panel-heading">
-                            <h3>Our Hours</h3>
+                            <h3><i class="glyphicon glyphicon-time"></i> Our Hours</h3>
                         </div>
 
                         <ul class="list-group">
@@ -51,13 +51,17 @@ layout: default
             <div class="col-xs-12">
                 <div class="btn-group btn-group-justified">
                     <div class="btn-group">
-                        <button type="button" class="btn btn-default">Left</button>
+                        <button type="button" class="btn btn-default"><i class="glyphicon glyphicon-earphone"></i> 914.698.6888</button>
                     </div>
                     <div class="btn-group">
-                        <button type="button" class="btn btn-default">Middle</button>
+                        <button type="button" class="btn btn-default">
+                          <i class="glyphicon glyphicon-print"></i> 914.777.7978
+                        </button>
                     </div>
                     <div class="btn-group">
-                        <button type="button" class="btn btn-default">Right</button>
+                        <button type="button" class="btn btn-default">
+                          <i class="glyphicon glyphicon-home"></i> 600 W. Boston Post Rd.
+                        </button>
                     </div>
                 </div>
             </div>
@@ -72,7 +76,7 @@ layout: default
 
     <div class="row">
         <div class="col-md-6">
-            <h2>Blogroll</h2>
+            <h2>Welcome</h2>
             <p>
                 Placerat dapibus. Etiam ultrices nulla sed leo malesuada commodo bibendum orci vi verra. Sed rutrum dapibus feugiat. Iasellus et congue arcu.
             </p>
@@ -111,7 +115,6 @@ layout: default
             </div>
         </div>
         <!-- end first roow -->
-        <hr class="icond">
         <div class="col-md-6">
             <h3>Ask a Question</h3>
             <h4>Ask us anything</h4>
@@ -128,16 +131,16 @@ layout: default
                     <div class="col-md-6">
                         <fieldset>
                             <div class="form-group">
-                                <label for="disabledTextInput">Name</label>
-                                <input type="text" class="form-control" placeholder="Name">
+                                <label for="disabledTextInput">Email</label>
+                                <input type="email" class="form-control" placeholder="Email">
                             </div>
                         </fieldset>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <fieldset>
                             <div class="form-group">
-                                <label for="disabledTextInput">Name</label>
-                                <input type="text" class="form-control" placeholder="Name">
+                                <label for="disabledTextInput">Reason</label>
+                                <input type="text" class="form-control" placeholder="Reason">
                             </div>
                         </fieldset>
                     </div>
@@ -171,7 +174,8 @@ layout: default
 </main>
 
 <div class="peek">
-    <div class="container-fluid">
-        <figure class="map"></figure>
-    </div>
+
+    <figure class="map" style="background-image: url(http://maps.googleapis.com/maps/api/staticmap?center=40.9443744,-73.7388227&zoom=13&size=1920x260&maptype=roadmap&markers=color:red%7Clabel:A%7C40.9443744,-73.7388227&scale=2);">
+
+    </figure>
 </div>

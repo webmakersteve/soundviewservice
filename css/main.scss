@@ -1,5 +1,7 @@
 /** bootstrap **/
 
+$icon-font-path: '../fonts/';
+
 @import 'bootstrap/bootstrap.scss';
 
 @mixin box-shadow($var) {
@@ -10,6 +12,14 @@
   -ms-box-shadow: $var;
 }
 
+@mixin border-radius($var) {
+  border-radius: $var;
+  -ms-border-radius: $var;
+  -o-border-radius: $var;
+  -webkit-border-radius: $var;
+  -moz-border-radius: $var;
+}
+
 /** author styles **/
 
 $softgray: #e5e5e5;
@@ -18,6 +28,22 @@ $darkblue: #2c4f85;
 $lightblue: #3d6db8;
 $lightblackgray: #444;
 $blackgray: #222;
+
+.form-control {
+  @include border-radius(0px);
+}
+
+textarea.form-control {
+  min-height: 100px;
+}
+
+.jumbotron {
+  background-repeat: no-repat; background-position: center center; background-size: cover;
+}
+
+main {
+  padding-bottom: 56px;
+}
 
 .nav-pad {
   padding-top: 135px;
@@ -218,4 +244,13 @@ footer {
     color: $softgray;
   }
 
+}
+
+.peek {
+
+
+  figure {
+    @include box-shadow(0 1px 3px rgba(0,0,0,.4) inset);
+    height: 260px; background-size: cover; background-position: center center;
+  }
 }
