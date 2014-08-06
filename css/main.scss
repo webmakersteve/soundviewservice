@@ -51,6 +51,10 @@ p {
 
 .jumbotron {
   background-color: transparent;
+  color: white;
+  h2, p {
+    text-shadow: black 0.05em 0.05em 0.05em;
+  }
 }
 
 #jumbo-carousel {
@@ -65,6 +69,7 @@ p {
   .item {
     height: 100%;
     width: 100%;
+    background-repeat: no-repeat; background-position: center top; background-size: cover;
   }
   .carousel-indicators {
     bottom: 5px;
@@ -94,15 +99,18 @@ main {
 .btn-default {
   background-color: $darkblue;
   color: white;
-  border-color: $softgray;
+  border-color: #345e9f;
   &:hover {
     background-color: $lightblue;
     color: white;
+    border-color: #345e9f;
   }
 }
 
 .navbar.scrolled {
   position:fixed;
+  opacity: 0.9;
+  transition: opacity .2s;
   top: 0;
   .container {
     width: 100%;

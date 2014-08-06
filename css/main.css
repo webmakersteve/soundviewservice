@@ -5306,7 +5306,10 @@ p {
   line-height: 1.7em; }
 
 .jumbotron {
-  background-color: transparent; }
+  background-color: transparent;
+  color: white; }
+  .jumbotron h2, .jumbotron p {
+    text-shadow: black 0.05em 0.05em 0.05em; }
 
 #jumbo-carousel {
   background-color: #eeeeee;
@@ -5319,7 +5322,10 @@ p {
   #jumbo-carousel .carousel-inner,
   #jumbo-carousel .item {
     height: 100%;
-    width: 100%; }
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover; }
   #jumbo-carousel .carousel-indicators {
     bottom: 5px; }
 
@@ -5347,13 +5353,16 @@ main {
 .btn-default {
   background-color: #2c4f85;
   color: white;
-  border-color: #e5e5e5; }
+  border-color: #345e9f; }
   .btn-default:hover {
     background-color: #3d6db8;
-    color: white; }
+    color: white;
+    border-color: #345e9f; }
 
 .navbar.scrolled {
   position: fixed;
+  opacity: 0.9;
+  transition: opacity .2s;
   top: 0; }
   .navbar.scrolled .container {
     width: 100%;
