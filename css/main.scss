@@ -29,6 +29,21 @@ $lightblue: #3d6db8;
 $lightblackgray: #444;
 $blackgray: #222;
 
+* {
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4 {
+  font-family: 'Oswald', helvetica, arial, sans-serif;
+}
+
+p {
+  line-height: 1.7em;
+}
+
 .form-control {
   @include border-radius(0px);
 }
