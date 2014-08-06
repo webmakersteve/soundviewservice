@@ -5307,7 +5307,8 @@ p {
 
 .jumbotron {
   background-color: transparent;
-  color: white; }
+  color: white;
+  margin-bottom: 0; }
   .jumbotron h2, .jumbotron p {
     text-shadow: black 0.05em 0.05em 0.05em; }
 
@@ -5344,8 +5345,16 @@ textarea.form-control {
   background-position: center center;
   background-size: cover; }
 
+main.shadow {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset;
+  -ms-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset;
+  -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset;
+  -ms-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset; }
+
 main {
-  padding-bottom: 56px; }
+  padding-bottom: 56px;
+  padding-top: 15px; }
 
 .nav-pad {
   padding-top: 135px; }

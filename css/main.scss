@@ -55,6 +55,7 @@ p {
   h2, p {
     text-shadow: black 0.05em 0.05em 0.05em;
   }
+  margin-bottom:0;
 }
 
 #jumbo-carousel {
@@ -88,8 +89,13 @@ textarea.form-control {
   background-repeat: no-repat; background-position: center center; background-size: cover;
 }
 
+main.shadow {
+  @include box-shadow(0 1px 3px rgba(0,0,0,.4) inset);
+}
+
 main {
   padding-bottom: 56px;
+  padding-top: 15px;
 }
 
 .nav-pad {
