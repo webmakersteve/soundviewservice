@@ -5293,6 +5293,9 @@ button.close {
 * {
   font-family: 'Open Sans', helvetica, arial, sans-serif; }
 
+.gray {
+  background-color: #eeeeee; }
+
 h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -5301,6 +5304,24 @@ h4, .h4 {
 
 p {
   line-height: 1.7em; }
+
+.jumbotron {
+  background-color: transparent; }
+
+#jumbo-carousel {
+  background-color: #eeeeee;
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px; }
+  #jumbo-carousel .carousel-inner,
+  #jumbo-carousel .item {
+    height: 100%;
+    width: 100%; }
+  #jumbo-carousel .carousel-indicators {
+    bottom: 5px; }
 
 .form-control {
   border-radius: 0px;

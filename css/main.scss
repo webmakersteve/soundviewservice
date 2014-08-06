@@ -28,9 +28,14 @@ $darkblue: #2c4f85;
 $lightblue: #3d6db8;
 $lightblackgray: #444;
 $blackgray: #222;
+$bggray: #eeeeee;
 
 * {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
+}
+
+.gray {
+  background-color: $bggray;
 }
 
 h1, .h1,
@@ -42,6 +47,28 @@ h4, .h4 {
 
 p {
   line-height: 1.7em;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+#jumbo-carousel {
+  background-color: $bggray;
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  .carousel-inner,
+  .item {
+    height: 100%;
+    width: 100%;
+  }
+  .carousel-indicators {
+    bottom: 5px;
+  }
 }
 
 .form-control {
